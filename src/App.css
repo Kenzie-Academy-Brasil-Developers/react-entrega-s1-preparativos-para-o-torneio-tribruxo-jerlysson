@@ -31,7 +31,7 @@ button {
   margin: 130px auto 10px;
 }
 .btn {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0.5em;
   border-radius: 10px;
   font-weight: bold;
@@ -52,4 +52,10 @@ button {
   color: darkblue;
   background-color: white;
   border-bottom: 4px solid blue;
+}
+
+@media only screen and (min-width: 600px) {
+  .btn {
+    font-size: 1.5em;
+  }
 }
