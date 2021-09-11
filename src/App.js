@@ -9,7 +9,7 @@ function App() {
   const [enter, setEnter] = useState(true);
 
   useEffect(() => {
-    fetch("http://hp-api.herokuapp.com/api/characters/students")
+    fetch("https://hp-api.herokuapp.com/api/characters/students")
       .then((response) => response.json())
       .then((response) => setStudents(response))
       .catch((err) => console.log(`${err}`));
