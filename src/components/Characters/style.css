@@ -1,0 +1,42 @@
+.boxCard {
+  border: 1px solid black;
+  position: relative;
+  color: white;
+  width: 150px;
+  background: #342b49;
+  border-radius: 10px 10px 0 0;
+}
+
+.img {
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+}
+.name {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+.school {
+  position: absolute;
+  margin: 0;
+  font-weight: 100;
+  text-decoration: underline;
+  right: 0;
+  bottom: 0;
+}
+.age {
+  display: none;
+  position: absolute;
+}
+
+@media only screen and (min-width: 600px) {
+  .boxCard {
+    margin: 3em;
+  }
+  .age {
+    display: block;
+    bottom: 40px;
+    left: 10px;
+  }
+}

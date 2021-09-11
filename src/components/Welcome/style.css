@@ -1,0 +1,24 @@
+.wellcome {
+  justify-content: center;
+  height: 80vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.btnStatus {
+  font-size: 2em;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: cadetblue;
+  color: rgb(71, 73, 73);
+  font-weight: bold;
+}
+.btnStatus:hover {
+  background-color: rgb(116, 137, 138);
+}
+.btnStatus:active {
+  background-color: rgb(71, 73, 73);
+  color: cadetblue;
+  font-size: 1.5em;
+}
