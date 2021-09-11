@@ -12,7 +12,7 @@ function App() {
     fetch("http://hp-api.herokuapp.com/api/characters/students")
       .then((response) => response.json())
       .then((response) => setStudents(response))
-      .catch((err) => `${err}`);
+      .catch((err) => console.log(`${err}`));
   }, []);
 
   // ============ SEPARAÇÃO DOS TIMES POR CASAS=============
